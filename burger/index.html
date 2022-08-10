@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Great Burgers! 汉堡!</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><h1>Great Burgers! 大很好汉堡!</h1></div>
+        <button class="btn-cart" type="button">Корзина</button>
+    </header>
+    <main>
+     
+        <h2>Ours products! look this! Great Burgers!</h2>
+        <button onclick="list_refresh();" class="buy-btn">See more burgers</button>
+
+
+        <h2>Make your favorite burger!</h2>
+        <form action="#" method="post" name="f1">
+            <div class="chkBlock">
+                <p>Размер:</p>
+                <p><input type="radio" name="chk1" value="2"> Большой</p>
+                <p><input type="radio" name="chk1" value="1"> Маленький</p>
+            </div>
+            <div class="chkBlock">
+                <p>Начинка:</p>
+                <p><input type="radio" name="chk2" value="1"> С сыром</p>
+                <p><input type="radio" name="chk2" value="2"> С салатом</p>
+                <p><input type="radio" name="chk2" value="3"> С картофелем</p>
+            </div>
+            <div class="chkBlock">
+                <p>Добавки:</p>
+                <p><input type="checkbox" name="chk6" value="6"> С приправой</p>
+                <p><input type="checkbox" name="chk7" value="7"> С майонезом</p>
+                <p><input type="checkbox" name="chk8" value="8"> С перцем</p>
+                <p><input type="checkbox" name="chk9" value="9"> С горчицей</p>
+            </div>
+            <INPUT TYPE=button VALUE="Приготовить" onClick="list_cook();" class="buy-btn">
+        </form>
+
+        <div class="products"></div>
+        <h2>Состав, цена, калории</h2>
+        <div class="desc">Описание:</div>
+    </main>
+    <!--beforestart-->
+    <p>
+        <!--afterstart-->
+        <span></span>
+        <!--beforeend-->
+    </p>
+    <!--afterend-->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

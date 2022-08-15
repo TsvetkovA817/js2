@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+    <header>
+        <div class="logo"><h1>reg Operation 任务</h1></div>
+    </header>
+    <main>
+        <hr>
+        <div class="gcenter">
+        <h2>1.Замена</h2>
+        <div><label for="file">Choose file to operate / 文件</label></div>
+        <div><input class="buy-btn" type="file" id="inpf1" name="inpf1" onchange="showFile(this,1)" accept=".txt"></div>
+        <form class="form2" action="#" enctype="multipart/form-data">
+                <textarea name="f2" id="ta1" cols="60" rows="20"></textarea>
+        </form>
+        <button class="buy-btn" onclick="p1(1);">Выполнить</button>
+        <button class="buy-btn" onclick="clearTxtArea('ta1','inpf1');">Очистить</button>
+        <div class="f1"></div>
+        </div>
+        <hr>
+        <div class="gcenter">
+        <h2>2.Замена</h2>
+        <div><label for="file">Choose file to operate / 文件</label></div>
+        <div><input class="buy-btn" type="file" id="inpf2" name="inpf2" onchange="showFile(this,2)" accept=".txt"></div>
+        <form class="form2" action="#" enctype="multipart/form-data">
+            <textarea name="f4" id="ta2" cols="60" rows="20"></textarea>
+        </form>
+        <button class="buy-btn" onclick="p1(2);">Выполнить</button>
+        <button class="buy-btn" onclick="clearTxtArea('ta2','inpf2');">Очистить</button>
+        <div class="f2"></div>
+        </div>
+        <hr>
+        <div class="gcenter">
+        <h2>3.Проверка формы</h2>
+        <fieldset style="width:300px">
+            <legend>Send message</legend>
+            <form class="form3">
+                  <table>
+                        <tr><td><label class="lab">Имя:</label></td>
+                        <td><input type="text" placeholder="yourname" maxlength="50" id="i1"></td></tr>
+                        <tr><td><label class="lab">Емаил:</label></td>
+                        <td><input type="email" placeholder="mymail@mail.ru" id="i2"></td></tr>
+                        <tr><td><label class="lab">Телефон:</label></td>
+                            <td><input type="email" placeholder="+7(000)000-0000" id="i3"></td></tr>
+                        </table>
+                        <div><label>Сообщение:</label>
+                        <textarea name="f3" id="ta3" cols="60" rows="10"></textarea></div>
+                        <div ><label class="lab">Приоритет:</label>
+                        <select id="pri">
+                            <option value="1" selected="selected">Normal</option>
+                            <option value="2">Fast</option>
+                            <option value="3">Important</option>
+                        </select></div>
+            </form>
+            <div class="btn3"><br><input class="buy-btn" type="submit" onclick="validate()" value="Отправить">
+            <input class="buy-btn" type="reset" onclick="clearForm()"  value="Очистить"></div>
+        </fieldset>
+        </div>
+        <footer><p>2022</p><p>тел.8(343)3443343</p></footer>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

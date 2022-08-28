@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="logo">
+                <h1>Eshop 电脑商店</h1>
+            </div>
+            <div class="cart">
+                <filter-el></filter-el>
+                <cart ref="cart"></cart>
+            </div>
+        </header>
+        <main>
+
+            <div class="desc_catalog">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum illo pariatur laboriosam eius
+                    mollitia
+                    dolore perferendis excepturi reiciendis sit corporis expedita inventore est ab, itaque quaerat
+                    nihil.
+                    Quae voluptates neque sint consectetur amet, ad error similique vero pariatur harum. Nobis doloribus
+                    fuga consequatur quia consectetur, deleniti expedita veniam et?</p>
+            </div>
+            <hr>
+            <error ref="error"></error>
+            <products ref="products"></products>
+            <hr>
+            <div class="desc_catalog">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum illo pariatur laboriosam eius
+                    mollitia
+                    dolore perferendis excepturi reiciendis sit corporis expedita inventore est ab, itaque quaerat
+                    nihil.
+                    Quae voluptates neque sint consectetur amet, ad error similique vero pariatur harum. Nobis doloribus
+                    fuga consequatur quia consectetur, deleniti expedita veniam et?</p>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>2022</p>
+            <p>тел.8(888)88-88-88</p>
+        </footer>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/ProductComponent.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

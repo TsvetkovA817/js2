@@ -1,0 +1,38 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "Keyboard",
+    "product_cn": "键盘",
+    "desc": "Клавиатура новая",
+    "price": 1600,
+    "imgProduct": "./img/products/124.jpg",
+    "imgCart": "./img/cart/124.jpg"
+  },
+  {
+    "id_product": 457,
+    "product_name": "Gamepad",
+    "product_cn": "游戏手柄",
+    "desc": "Игровой джойстик",
+    "price": 3000,
+    "imgProduct": "./img/products/457.jpg",
+    "imgCart": "./img/cart/457.jpg"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Ноутбук",
+    "product_cn": "笔记本",
+    "desc": "Современный ноутбук",
+    "price": 45600,
+    "imgProduct": "./img/products/123.jpg",
+    "imgCart": "./img/cart/123.jpg"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Мышка",
+    "product_cn": "鼠标",
+    "desc": "Просто мышка",
+    "price": 1000,
+    "imgProduct": "./img/products/456.jpg",
+    "imgCart": "./img/cart/456.jpg"
+  }
+]

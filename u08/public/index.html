@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>p08</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+
+
+    <div id="app">
+
+        <nav class="menu_top">
+            <div class="container">
+                <nav class="menu_top_left">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+
+                    <filterel></filterel>
+
+                </nav>
+                <nav class="menu_top_right">
+                    <img class="menu_img_btn" src="img/menu.svg" alt="menu">
+                    <img class="menu_img_user" src="img/user.svg" alt="user">
+
+                    <cart ref="cart"></cart>
+
+                </nav>
+            </div>
+        </nav>
+
+
+
+
+        <header class="header">
+
+            <div class="header_on">
+                <div class="header_left"><img class="h1img1" src="img/header.jpg" alt="photo"></div>
+                <div class="header_right">
+                    <div class="bh1">
+                        <img src="img/h1.png" alt="h1" class="h1img2">
+                        <h1 class="ch1"><span class="sh1">THE BRAND</span><span class="sh2">
+                                OF LUXERIOUS <span class="sh3">FASHION</span></span></h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="headerOff" id="id1">
+                <nav class="menu_right">
+                    <img class="menu_close_img" src="img/close.png" alt="close">
+                    <h4 class="menu_right_h4">MENU</h4>
+                    <ul class="menu_right_ctg_ul">
+                        <li class="menu_right_ctg_li">Man</li>
+                        <li>
+                            <ul class="menu_right_item_ul">
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">T-Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_right_ctg_li">Woman</li>
+                        <li>
+                            <ul class="menu_right_item_ul">
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Jackets &amp; Coats</a></li>
+                                <li><a href="#">Polos</a></li>
+                                <li><a href="#">T-Shirts</a></li>
+                                <li><a href="#">Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_right_ctg_li">Kids</li>
+                        <li>
+                            <ul class="menu_right_item_ul">
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Jackets &amp; Coats</a></li>
+                                <li><a href="#">Polos</a></li>
+                                <li><a href="#">T-Shirts</a></li>
+                                <li><a href="#">Shirts</a></li>
+                                <li><a href="#">Bags</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+
+
+        <div class="container">
+
+            <div class="categories">
+                <div class="categ1">
+                    <img class="categ_img" src="img/ctg1.jpg" alt="for women">
+                    <div class="ctg1_txt">
+                        <p class="ctg1_p">30% OFF</p>
+                        <h4 class="ctg1_h4">FOR WOMEN</h4>
+                    </div>
+                </div>
+
+                <div class="categ2">
+                    <img class="categ_img" src="img/ctg2.jpg" alt="for men">
+                    <div class="ctg1_txt">
+                        <p class="ctg1_p">HOT DEAL</p>
+                        <h4 class="ctg1_h4">FOR MEN</h4>
+                    </div>
+                </div>
+
+                <div class="categ3">
+                    <img class="categ_img" src="img/ctg3.jpg" alt="for kids">
+                    <div class="ctg1_txt">
+                        <p class="ctg1_p">30% OFF</p>
+                        <h4 class="ctg1_h4">FOR KIDS</h4>
+                    </div>
+                </div>
+
+                <div class="categ4"><img class="categ_img" src="img/ctg4.jpg" alt="acsessories">
+                    <div class="ctg1_txt">
+                        <p class="ctg1_p">LUXIROUS & TRENDY</p>
+                        <h4 class="ctg1_h4">ACCESORIES</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="fetured_header">
+                <h3 class="fetured_h3">Fetured Items</h3>
+                <p class="fetured_txt">Shop for items based on what we featured in this week</p>
+            </div>
+
+        </div>
+
+        <error ref="error"></error>
+        <products ref="products"></products>
+
+    </div>
+
+    <div class="container">
+        <button class="cardsBrowseBtn" onclick="document.location='catalog.html'">Browse All Product</button>
+    </div>
+    <!-- </div> -->
+
+    <div class="services">
+        <div class="container">
+            <div class="servicesBox">
+                <img src="img/delivery.svg" alt="delivery picture">
+                <h4>Free&nbsp;Delivery</h4>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </p>
+            </div>
+            <div class="servicesBox">
+                <img src="img/sales.svg" alt="sales picture">
+                <h4>Sales&nbsp;&amp;&nbsp;discounts</h4>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </p>
+            </div>
+            <div class="servicesBox">
+                <img src="img/quality.svg" alt="quality picture">
+                <h4>Quality&nbsp;assurance</h4>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="subscribe">
+        <div class="container">
+            <div class="subscribe1">
+                <img src="img/user1.png" alt="user photo">
+                <p> “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a <i>pulvinar purus condimentum</i>“
+                </p>
+            </div>
+
+            <div class="subscribe2">
+                <h4>SUBSCRIBE</h4>
+                <p>
+                    FOR OUR NEWLETTER AND PROMOTION
+                </p>
+                <form action="#" class="subscribeForm">
+                    <input type="email" required placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social_icons">
+                <a href="#">
+                    <span class="fab fa-facebook-f"></span>
+                </a>
+                <a href="#">
+                    <span class="fab fa-instagram"></span>
+                </a>
+                <a href="#">
+                    <span class="fab fa-pinterest-p"></span>
+                </a>
+                <a href="#">
+                    <span class="fab fa-twitter"></span>
+                </a>
+            </div>
+            <div class="footer_copyrights">
+                &copy; 2022 Brand All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+    <!-- <script src="js/ProductComponent.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script> -->
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        'use strict';
+        let menuBtn = document.querySelector('.menu_img_btn');
+        let menuCls = document.querySelector('.menu_close_img');
+
+        function showMenu() {
+
+            let b = document.querySelector('.headerOff');
+            let d = b.style.display;
+            if (d == 'inline-block' || d == "") {
+                b.style.display = "none";
+            }
+            if (d != "inline-block") {
+                b.style.display = "inline-block";
+            }
+
+        }
+
+        menuBtn.addEventListener('click', showMenu);
+        menuCls.addEventListener('click', showMenu);
+
+    </script>
+
+</body>
+
+</html>

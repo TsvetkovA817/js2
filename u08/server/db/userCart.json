@@ -1,0 +1,36 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 102,
+            "product_name": "Woman suit",
+            "product_cn": "游戏手柄",
+            "desc": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 202,
+            "imgProduct": "./img/products/c2.jpg",
+            "imgCart": "./img/cart/c2.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 105,
+            "product_name": "Blazer",
+            "product_cn": "鼠标",
+            "desc": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 205,
+            "imgProduct": "./img/products/c5.jpg",
+            "imgCart": "./img/cart/c5.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 106,
+            "product_name": "Women's shirt",
+            "product_cn": "鼠标",
+            "desc": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 206,
+            "imgProduct": "./img/products/c6.jpg",
+            "imgCart": "./img/cart/c6.jpg"
+        }
+    ]
+}
